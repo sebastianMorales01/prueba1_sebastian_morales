@@ -1,41 +1,75 @@
 body{
     margin: 0%;
 }
-.caja{
+.caja1{
     background-image: url(../img/1.jpg);
+    background-size: cover;
     height: 600px;
     margin: 10px;
 }
-.caja_icon{
+.caja1_icon{
     display: flex;
     justify-content: flex-end; 
     padding: 20px;
 }
-.caja_desc{
+.caja1_desc{
     display: grid;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     transform: translateY(100%);
+}
+.caja1 h4{
+    border: 3px solid black;
+    width: 25px;
 }
 
 .caja2{
-    border: 1px solid red;
     background-color: rgb(170, 169, 169);
     text-align: center;
+    padding-bottom: 5px;
+}
+.caja2 h4{
+    border: 4px solid black;
+    width: 30px;
 }
 .caja2_article{
-    border: 1px solid red;
     margin: 10px;
     display: grid;
     height: 600px;
     grid-template-rows: 50% 50%;
+    box-shadow: 3px 3px 15px gray;
 }
 .caja2_img img{
+    background-size: cover;
     margin: 0px;
-    border: 1px solid red;
     height: 100%;
-    width: 100%; 
-    object-fit: cover;
+    width: 100%;  
+}
+.caja2_p{
+    background: white;
+    display: grid;
+    align-content: center;
+}
+.caja2_p h4{
+    border: 4px solid black;
+    width: 30px;
+    
+}
+
+.caja_about{
+    border: 1px solid red;
+    text-align: center;
+}
+.caja_about_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
+}
+
+.caja_about_p p{
+    text-align: justify;
+    padding: 10px;
 }
 
 
