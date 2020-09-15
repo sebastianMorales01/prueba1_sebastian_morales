@@ -4,19 +4,29 @@ body{
 .caja{
     background-image: url(../img/1.jpg);
     height: 600px;
-    border: 1px solid red;
     margin: 10px;
 }
 .caja_icon{
-    border: 1px solid red;
     display: flex;
     justify-content: flex-end; 
     padding: 20px;
 }
 .caja_desc{
-    border: 1px solid red;
     display: grid;
     align-items: center;
     justify-content: center;
     transform: translateY(100%);
 }
+
+.caja2{
+    border: 1px solid red;
+    background-color: rgb(170, 169, 169);
+    text-align: center;
+}
+.caja2_article{
+    border: 1px solid red;
+    margin: 10px;
+
+}
+
+
