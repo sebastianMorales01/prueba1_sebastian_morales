@@ -26,7 +26,16 @@ body{
 .caja2_article{
     border: 1px solid red;
     margin: 10px;
-
+    display: grid;
+    height: 600px;
+    grid-template-rows: 50% 50%;
+}
+.caja2_img img{
+    margin: 0px;
+    border: 1px solid red;
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
 }
 
 
