@@ -1,0 +1,10 @@
+.caja{
+    background-image: url(../img/1.jpg);
+    height: 600px;
+    
+}
+.caja1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
