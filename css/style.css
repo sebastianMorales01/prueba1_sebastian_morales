@@ -34,6 +34,7 @@ body{
     width: 30px;
 }
 .caja2_article{
+    border: 1px solid red;
     margin: 10px;
     display: grid;
     height: 600px;
@@ -52,13 +53,12 @@ body{
     align-content: center;
 }
 .caja2_p h4{
-    border: 4px solid black;
+    border: 3px solid black;
     width: 30px;
     
 }
 
 .caja_about{
-    border: 1px solid red;
     text-align: center;
 }
 .caja_about_img img{
@@ -71,5 +71,61 @@ body{
     text-align: justify;
     padding: 10px;
 }
+.linea h4{
+    border: 3px solid black;
+    width: 30px;
+}
+
+.caja_suscribe{
+    
+    background-color: rgb(170, 169, 169);
+    text-align: center;
+    display: grid; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.caja_suscribe h1{
+    margin-bottom: 0%;
+}
+.caja_suscribe input{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid white;
+    background: rgb(209, 206, 206);
+    box-sizing: border-box;
+}
+.caja_suscribe button{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    size: 15px;
+}
+
+.caja_final{
+    text-align: center;
+    padding-top:50px ;
+    padding-bottom: 50px;
+
+}
+.caja_final_icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.caja_final_icons i{
+    color: white;
+    background: rgb(68, 68, 68);
+    margin-right: 12px;
+    width: 16px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px){
+    
+
+} 
+
 
 
