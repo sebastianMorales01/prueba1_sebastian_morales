@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .caja1{
     background-image: url(../img/1.jpg);
@@ -17,8 +18,12 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
-    transform: translateY(100%);
+    transform: translateY(30%);
+    font-size: 30px;
+    color: red;
+    
 }
+
 .caja1 h4{
     border: 3px solid black;
     width: 25px;
@@ -28,6 +33,7 @@ body{
     background-color: rgb(170, 169, 169);
     text-align: center;
     padding-bottom: 5px;
+    padding-top:20px ;
 }
 .caja2 h4{
     border: 4px solid black;
@@ -124,7 +130,40 @@ body{
     text-align: center;
 }
 
+
+.caja_personal{
+    margin-top: 50px;
+    padding: 28px;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 5px;
+    
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact img{
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 16px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    font-weight: bold;
+}
+.cargo{
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
 @media screen and (min-width:768px){
+
     .caja2{
         padding-top: 100px;
         padding-bottom: 150px;
@@ -157,23 +196,24 @@ body{
     }
     
     .caja_final{
-        border: 1px solid red;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         padding: 70px;
     }
     .caja_final_icons i{
-        
         height: 16px;
     }
     .caja_final_txt{
         display: flex;
-        border: 1px solid red;
-
     }
     .caja_final_txt h3{
-        
+        padding-right: 60px;
+    }
+
+    .caja_personal{
+        width: 400px;
+        margin-left: 40px;
     }
     
 
