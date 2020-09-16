@@ -34,7 +34,7 @@ body{
     width: 30px;
 }
 .caja2_article{
-    border: 1px solid red;
+    
     margin: 10px;
     display: grid;
     height: 600px;
@@ -77,12 +77,12 @@ body{
 }
 
 .caja_suscribe{
-    
     background-color: rgb(170, 169, 169);
     text-align: center;
     display: grid; 
     padding-top: 50px;
     padding-bottom: 50px;
+    justify-items: center;
 }
 .caja_suscribe h1{
     margin-bottom: 0%;
@@ -93,12 +93,14 @@ body{
     border: 2px solid white;
     background: rgb(209, 206, 206);
     box-sizing: border-box;
+    width: 90%;
 }
 .caja_suscribe button{
     margin: 10px;
     padding: 20px;
     font-weight: bold;
     size: 15px;
+    width: 90%;
 }
 
 .caja_final{
@@ -123,6 +125,56 @@ body{
 }
 
 @media screen and (min-width:768px){
+    .caja2{
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .caja2_tarjeta{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-around;
+    }    
+    .caja2_article{
+        width: 350px;
+    }
+
+    .caja_about{
+        display: flex;
+    }
+    .caja_about_p{
+        width: 50%;
+        padding:70px; 
+    }
+    
+    .caja_suscribe input{
+        width: 600px;
+    }
+    .caja_suscribe button{
+        width: 200px;
+    }
+    
+    .caja_final{
+        border: 1px solid red;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 70px;
+    }
+    .caja_final_icons i{
+        
+        height: 16px;
+    }
+    .caja_final_txt{
+        display: flex;
+        border: 1px solid red;
+
+    }
+    .caja_final_txt h3{
+        
+    }
     
 
 } 
